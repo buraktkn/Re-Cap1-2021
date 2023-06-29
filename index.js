@@ -4,9 +4,9 @@ var users = [
 ]
 
 var info = [
-    {school:"Medipol", age:21,city:"Istanbul"},
-    {school:"Nisantası", age:12,city:"Istanbul"},
-    {school:"Gelisim", age:32,city:"Istanbul"}
+    {school:"Medipol", age:21},
+    {school:"Nisantası", age:12},
+    {school:"Gelisim", age:32}
 ]
 
 var userName = prompt("Username : ")
@@ -24,3 +24,17 @@ function Login(){
         
 }
 Login()
+
+// for(i=1; i<=10; i++){
+//     console.log(i)
+// }
+
+var citys = ["Diyarbakır", "Batman", "İstanbul", "İzmir"]
+// var i=0;
+// while (i<city.length){
+//     console.log(city[i])
+//     i++;
+// }
+citys.forEach(function(city){
+    console.log(city)
+})
